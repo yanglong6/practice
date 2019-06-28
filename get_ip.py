@@ -41,7 +41,6 @@ def run():
         print "get ips failed"
         return -1
     else:
-        #print ret
         return ret
 
 if __name__=="__main__":
