@@ -1,0 +1,9 @@
+<html>
+<meta charset="utf-8">
+<body>
+    <h1>详细信息</h1>
+	{% for use in user_dict.items()%}
+    	<li>{{use[0]}}:{{use[1]}}</li>
+	{% endfor %}
+</body>
+</html>
