@@ -44,11 +44,11 @@ def find_key(in_path,key_word):
 
 def run():
 	tag=raw_input("1:查找文件   2:查找文件内容\n请选择:")
-	if int(tag)==1:
+	if tag=='1':
 		path=raw_input('请输入文件夹的路径:')
 		style=raw_input("请输入文件名或文件的格式,如'test.py','.txt':")
 		traverse_dir(path,style)
-	elif int(tag)==2:
+	elif tag=='2':
 		path=raw_input('请输入文件夹的路径:')
 		keyword=raw_input("请输入查找的关键字:")
 		find_key(path,keyword)
