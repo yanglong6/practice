@@ -1,0 +1,1 @@
+cmd_/home/farsight/huaqin/make_driver/day1/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.5.0-23-generic/scripts/module-common.lds --build-id  -o /home/farsight/huaqin/make_driver/day1/hello.ko /home/farsight/huaqin/make_driver/day1/hello.o /home/farsight/huaqin/make_driver/day1/hello.mod.o
